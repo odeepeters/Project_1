@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+        background-image: url(./media/images/humming-bird.jpg);
+        color: white;
+    }
+
+    /* Home Section */
+
+nav .logo{
+    align-content: center;
+    padding-left: 40px;
+    color: aliceblue;
+} 
+
+.logo{
+    padding-top: 65px;
+    padding-bottom: 18px;
+    background-color: rgb(228, 162, 40);
+    width: 100%px;
+    height: 40px;
+    }
+
+    
+    .navbar{
+        padding-top: 20px;
+        padding-left: 350px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 40px;
+        width: 100%;
+        background-color: rgb(62, 62, 170);
+        z-index: 1000;
+        font-weight: 1000;
+       }
+    
+    .navbar a{
+        text-decoration: none;
+        padding: 25px;
+        margin: 15px;
+        color: rgb(199, 15, 70);
+        align-content: center;
+        justify-content:center;
+    }
+
+.spdegrees h2{
+    padding-left: 720px;
+}
+
+
+.peters{
+        display: flex;
+    }
+
+
+.peters p{
+        padding: 150px 50px;
+        font-size: large;
+    }
+
+
+span a{
+        text-decoration: none;
+    } 
+
+
+.peters img{
+    border-radius: 100px 100px 100px 100px;
+}
+
+
+
+.ceo{
+    padding-left: 15px;
+    margin: 15px;
+    height: 400px;
+    width: 350px;
+    }
+
+
+/* About Section */
+
+.about h1{
+     padding: 100px 0 10px 0;
+  }
+
+
+.bio h3{
+    text-align: center;
+  }
+
+
+  .about p{
+    padding: 20px 0px 100px 20px;
+} 
+
+
+.personalinfo h3{
+    padding: 15px 0px px 20px;  
+  }   
+
+
+
+.about ol{
+    padding: 15px 0px 100px 550px;
+}
+
+.media h4{
+    padding: 20px 0px 15px 15px;
+    text-align: center;
+    
+}
+
+.media video{
+    padding: 15px 50px 0px 250px;
+    width: 60%;
+    border-radius: 50px;  
+}
+
+.media p{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+.media audio{
+    width: 200px;
+    padding: 15px 50px 0px 550px;
+}
+
+.media li{
+    padding-top: 2px;
+    text-align: center;
+  }
+
+.comments p{
+    text-align: center;
+}
+
+.comments textarea{
+    width:60%;
+    height: 200px;
+    margin-left: 250px;
+}
+
+
+/* Work Section */
+
+h1, h3{
+    margin: 1em auto;
+    text-align: center;
+  }
+  
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+
+  fieldset {
+    border: none;
+    padding: 15px 0;
+    border-bottom: 3px solid #3b3b4f;
+  }
+  
+
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  .account legend{
+    font-weight: 600;
+  }
+
+  label {
+    display: block;
+    margin: 1px 0;
+    padding-bottom: 3px;
+  }
+
+  .register p{
+    padding-top: 30px;
+    font-weight: 800;
+    text-align: center;
+  }
+
+
+
+  /* Resume Section */
+  input, textarea, select {
+    margin: 10px 0 0 0;
+    padding:15px 0 15px 0;
+    width: 100%;
+    min-height: 7px;
+  }
+ 
+
+  button{
+    height:40px;
+    width: 100%;
+    background-color:#1616aa; 
+    border-radius: 5px;
+    margin-top: 10px;
+    color: white;
+  }
+
+
+   .catnature input{
+    padding-top: 0 ;
+    margin: auto;
+  }
+  
+  input, textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  input[type="submit"] 
+  { 
+    height:40px;
+    width: 100%;
+    background-color:#1616aa; 
+    border-radius: 5px;
+    margin-top: 10px;
+    color: white;
+    }
+  
+  input[type="file"] {
+    padding: 1px 2px;}
+  a {color:#dfdfe2;}
+  
+.resume h1, p{
+    text-align: center;
+}  
+
+/* Contact Section */
+.contact p{
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+
+.contact img{
+    padding-left: 17px;
+    display: inline;
+    height: 300px;
+    width: 200px;
+}
+
+.footer p{
+    align-items: center;
+    font-weight: 400;
+    padding-top: 20px;
+}
